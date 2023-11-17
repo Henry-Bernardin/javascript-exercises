@@ -8,9 +8,6 @@
 // // Do not edit below this line
 // module.exports = reverseString;
 let wordStr = "hello there";
-let wordArray = wordStr.split("");
-let reverse = wordArray.reverse(); 
-let join = reverse.join(); 
-let newWord = join.replace(); 
+let wordArray = wordStr.split(" ").reverse().join();
 
-console.log(newWord); // ['h', 'e', 'l', 'l', 'o', ' ', 't', 'h', 'e', 'r', 'e']
+console.log(wordArray); 
