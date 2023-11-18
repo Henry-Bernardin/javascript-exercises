@@ -1,13 +1,9 @@
-// const reverseString = function(word) { 
-// let str = word.split(); 
-// return str; 
-// };
+const reverseString = function(word) { 
+    let wordString = word.split("").reverse().join('');
+    return wordString; 
+};
 
-// console.log(reverseString); 
+console.log(reverseString); 
 
-// // Do not edit below this line
-// module.exports = reverseString;
-let wordStr = "hello there";
-let wordArray = wordStr.split(" ").reverse().join();
-
-console.log(wordArray); 
+// Do not edit below this line
+module.exports = reverseString;
